@@ -1,0 +1,33 @@
+{
+  "url": {
+    "name": "MapeaHistory",
+    "separator": "*"
+  },
+  "constructor": "M.plugin.MapeaHistory",
+  "parameters": [{
+    "type": "object",
+    "properties": [{
+      "type": "enum",
+      "name": "position",
+      "position": 0,
+      "possibleValues": ["TL", "TR", "BR", "BL"]
+    }]
+  }],
+  "files": {
+    "ol": {
+      "scripts": "mapeahistory.ol.min.js",
+      "styles": "mapeahistory.ol.min.css"
+    }
+  },
+  "metadata": {
+    "name": "MapeaHistory",
+    "description": "Allows navigations between previous and following map views",
+    "text": "On click on first button, the previous map view is shown. On click on second button, the following map view is shown.",
+    "version": "1.0.0",
+    "date": "",
+    "author": "",
+    "org": "",
+    "tags": "mapea,plugin",
+    "icon": "./facade/assets/icons/icons.svg"
+  }
+}
